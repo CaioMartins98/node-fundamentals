@@ -1,0 +1,20 @@
+{
+  "name": "fundamentos",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch --no-warnings src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "openai": "^4.14.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
